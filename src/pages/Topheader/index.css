@@ -1,0 +1,22 @@
+.alcol {
+  background-color: rgb(255, 117, 0) !important;
+  color: aliceblue;
+  padding: 9px 50px !important;
+}
+.picc {
+  color: white !important;
+  font-size: 14px;
+  margin-left: 20px !important;
+}
+.pi {
+  width: 18px;
+  height: 18px;
+}
+.serpicc {
+  color: white !important;
+  font-size: 14px;
+}
+.serpi {
+  opacity: 0.8;
+  background: rgb(255, 117, 0);
+}
