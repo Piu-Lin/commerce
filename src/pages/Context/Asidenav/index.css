@@ -1,0 +1,26 @@
+.asidemainbox {
+  width: auto;
+  height: 300px;
+}
+.asidetitlebox {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.asidetitleword {
+  font-size: 20px;
+  color: white;
+}
+.asideitembox {
+  height: 56px;
+  border-left: rgb(255, 117, 0) 5px solid;
+  background-color: #f9f3ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.asidemainbox .chiosenasise {
+  background-color: white;
+  border-left: rgb(203, 4, 243) 5px solid;
+}
