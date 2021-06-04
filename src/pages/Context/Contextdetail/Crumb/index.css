@@ -1,7 +1,39 @@
 .crumbmainbox {
+  display: flex;
+  align-items: center;
   margin-top: 20px;
   height: 40px;
   width: auto;
   box-shadow: 0px -1px 0px 0px rgb(255 224 198);
   background-color: rgba(255, 250, 246, 1);
+}
+.crumbfloatleftbox {
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(39, 43, 50, 1);
+  padding-left: 35px;
+  background-image: url(./img/position.png);
+  background-position: 10px center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+.crumbtitle {
+  margin-right: 16px;
+  float: left;
+}
+.crumbword {
+  margin-right: 16px;
+  font-size: 14px;
+  float: left;
+}
+.luji {
+  float: left;
+  margin-right: 16px;
+  width: 5px;
+  height: 40px;
+  background-image: url(./img/luji.png);
+  background-position: center;
+  background-size: 5px 8px;
+  background-repeat: no-repeat;
 }
