@@ -7,7 +7,7 @@ export default class Context extends Component {
         return (
                 <div className="container">
                     <div className="row no-gutters">
-                        <div className="col-sm-2 maincoloer">
+                        <div id="asidegrid" className="col-sm-2 maincoloer">
                             <Asidenav/>
                         </div>
                         <div className="col-sm-10">
