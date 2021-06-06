@@ -12,28 +12,42 @@
   height: 200px;
   display: flex;
   align-items: center;
+  border-right-style: solid;
+  border-color: rgba(255, 255, 255, 0.4);
+  border-width: 1px;
 }
 .footnavtitle {
   font-size: 26px;
+  color: #fff;
 }
 .footnavitembox {
-  background-color: red;
   width: 170px;
   height: 200px;
   display: flex;
   align-items: center;
+  border-right-style: solid;
+  border-color: rgba(255, 255, 255, 0.4);
+  border-width: 1px;
 }
 .footnavitemcontr {
   display: flex;
   flex-direction: column;
   width: 170px;
-  background-color: blueviolet;
 }
 .footnavitem {
+  margin-left: 20px;
+}
+.footnavword {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 22px;
+  margin-top: 8px;
 }
 .pathlogo {
   float: left;
-  margin-right: 16px;
+  margin-right: 10px;
   width: 5px;
   height: 40px;
   background-image: url(./img/lefttwp.png);
@@ -41,10 +55,19 @@
   background-size: 5px 8px;
   background-repeat: no-repeat;
 }
-.footnavitem2 {
-  background-color: green;
-  width: 170px;
-  height: 200px;
-  display: flex;
-  align-content: stretch;
+#copyright {
+  margin: 0 auto;
+  width: 100%;
+  height: 56px;
+  background: rgba(254, 130, 10, 0.16);
+  border-bottom: 4px solid rgba(232, 132, 44, 1);
+}
+.copyrightword {
+  text-align: center;
+  height: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #918074;
+  line-height: 20px;
+  padding-top: 7px;
 }
