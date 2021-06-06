@@ -6,7 +6,9 @@ export default class Articlefoot extends Component {
             <div>
                 <br />
                 <div className="articlefootmainbox">
-                    
+                    <div className="articlefootwordbox">
+                        （统计数据截至2019年12月）
+                    </div>
                 </div>
             </div>
         )

@@ -1,3 +1,15 @@
 .articlefootmainbox {
-  margin: 0 auto;
+  width: 100%;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-image: url(./img/footback.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.articlefootwordbox {
+  color: rgb(105, 105, 105);
+  padding-bottom: 8px;
 }

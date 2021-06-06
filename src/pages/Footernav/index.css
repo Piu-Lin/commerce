@@ -1,0 +1,50 @@
+#mainfootbox {
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(./img/footbackground.png);
+  display: flex;
+  justify-content: center;
+}
+.footnavtitlebox {
+  width: 170px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.footnavtitle {
+  font-size: 26px;
+}
+.footnavitembox {
+  background-color: red;
+  width: 170px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.footnavitemcontr {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  background-color: blueviolet;
+}
+.footnavitem {
+}
+.pathlogo {
+  float: left;
+  margin-right: 16px;
+  width: 5px;
+  height: 40px;
+  background-image: url(./img/lefttwp.png);
+  background-position: center;
+  background-size: 5px 8px;
+  background-repeat: no-repeat;
+}
+.footnavitem2 {
+  background-color: green;
+  width: 170px;
+  height: 200px;
+  display: flex;
+  align-content: stretch;
+}
