@@ -13,8 +13,15 @@ export default class Footernav extends Component {
                console.log(error)
            }
     }
+    gotourl=(url)=>{
+        return ()=>{
+            window.open(url, "_blank");
+        }
+        
+    }
     render() {
         const {comlink}=this.state
+        const{gotourl}=this
         return (
             <>
             <div id="mainfootbox">
@@ -29,7 +36,7 @@ export default class Footernav extends Component {
                                     {
                                         footnavitems.map((footnavitem,itemkey)=>{
                                             return(
-                                                <div key={itemkey} className="footnavitem">
+                                                <div key={itemkey} onClick={gotourl(footnavitem.url)} className="footnavitem">
                                                     <div className="pathlogo"/>
                                                     <div className="footnavword">{footnavitem.name}</div>
                                                     {/* footnavitem.url 为链接 */}

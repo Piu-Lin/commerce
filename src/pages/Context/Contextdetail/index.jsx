@@ -7,7 +7,6 @@ import './index.css'
 export default class Contextdetail extends Component {
     render() {
         const {simunav} = this.props
-        console.log(simunav)
         return (
             <div className="Contextdetailbox">
                 <Crumb simunav={simunav}/>
