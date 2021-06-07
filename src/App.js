@@ -1,19 +1,15 @@
 import React, { Component } from 'react'
-import Topheader from "./pages/Topheader"
-import Navheader from './pages/Navheader'
-import Context from './pages/Context'
-import Footernav from './pages/Footernav'
-import "./App.css"
+import Pages from './pages'
+import Experimental from './experimental'
 export default class App extends Component {
+  state={
+    projectControl:1,
+  }
   render() {
+    const {projectControl}= this.state
     return (
       <>
-        <Topheader/>
-        <Navheader/>
-        <div className="fengshui"></div>
-        <Context/>
-        <div id="emptybox"></div>
-        <Footernav/>
+      {projectControl === 0 ? (<Pages/>):(<Experimental/>)}
       </>
     )
   }

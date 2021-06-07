@@ -1,0 +1,11 @@
+.fengshui {
+  height: 350px;
+  background-image: url("./img/imgsss.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+#emptybox {
+  height: 150px;
+}

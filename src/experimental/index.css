@@ -1,0 +1,63 @@
+.exmaintopbox {
+  font-family: arial;
+  width: 100%;
+  line-height: 40px;
+  background: #f60;
+  font-size: 14px;
+  color: #fff;
+  z-index: 9999;
+  margin: 0 auto;
+}
+.extopword {
+  margin: 0 auto;
+  margin-left: 19%;
+}
+.exmainnavbox {
+  display: flex;
+  width: 1200px;
+  height: 90px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 10px 5px 10px;
+  justify-content: flex-end;
+}
+.exnavlogo {
+  display: flex;
+  width: 30%;
+  justify-content: flex-start;
+}
+.extotailnavbox {
+  display: flex;
+  height: 90px;
+}
+.exnavbox {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#menu {
+  color: #333;
+  line-height: 24px;
+  font: 14px Helvetica Neue, Helvetica, PingFang SC, Tahoma, Arial, sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+.exmenuword {
+  cursor: pointer;
+  color: #333;
+  line-height: 45px;
+  font-size: 16px;
+  list-style: none;
+}
+.exlebel {
+  cursor: pointer;
+  width: 100%;
+  float: left;
+  font-size: 12px;
+  line-height: 20px;
+  color: #888;
+}
