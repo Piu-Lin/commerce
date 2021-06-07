@@ -14,7 +14,6 @@ export default class App extends Component {
         <Context/>
         <div id="emptybox"></div>
         <Footernav/>
-        
       </>
     )
   }
