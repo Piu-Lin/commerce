@@ -1,0 +1,84 @@
+.articletitlebox {
+  display: block;
+  margin-top: 26px;
+  height: 60px;
+  margin-bottom: 60px;
+  /* 奇怪的css ↓ */
+  box-shadow: 0px 1px 0px 0px rgb(231 231 231);
+}
+.articlewordbox {
+  float: left;
+  height: 58px;
+  line-height: 58px;
+  font-size: 26px;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  border-bottom: 3px solid rgba(255, 157, 72, 1);
+}
+.figureitembox {
+  width: 210px;
+  height: 300px;
+  border: 1px solid rgba(238, 238, 238, 1);
+  margin-top: 32px;
+  padding-top: 32px;
+}
+.figuremainbox {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.figureitememptybox {
+  width: 210px;
+  height: 260px;
+  margin-top: 32px;
+  padding-top: 32px;
+}
+.portrait {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 144px;
+  height: 144px;
+  border-radius: 100%;
+  margin-left: 32px;
+}
+#shaoxiaofeng {
+  background-image: url("./img/shaoxiaofeng.jpg");
+}
+.figurename {
+  height: 36px;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(75, 0, 130, 1);
+  line-height: 36px;
+  margin-top: 8px;
+  text-align: center;
+}
+.figurebriefbox {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  line-height: 20px;
+  text-align: center;
+  height: 60px;
+  overflow: hidden;
+}
+#wanglilin {
+  background-image: url("./img/wanglilin.jpg");
+}
+#zengming {
+  background-image: url("./img/zengming.jpg");
+}
+#wangjian {
+  background-image: url("./img/wangjian.jpg");
+}
+#xiaweidong {
+  background-image: url("./img/xiaweidong.jpg");
+}
+#zhangzuo {
+  background-image: url("./img/zhangzuo.png");
+}
+#lishiqi {
+  background-image: url("./img/lishiqi.jpg");
+}

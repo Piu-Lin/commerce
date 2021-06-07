@@ -4,7 +4,7 @@ import Contextdetail from './Contextdetail'
 import './index.css'
 export default class Context extends Component {
     state={
-        simunav: 0
+        simunav: 1
     }
     handlenav=(id)=>{
         this.setState({simunav:id})
