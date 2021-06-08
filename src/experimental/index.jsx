@@ -1,36 +1,30 @@
 import React, { Component } from 'react'
-import './index.css'
+import Extopnav from './Extopnav'
+import Exasiadenav from './Exasiadenav'
+import Excontent from './Excontent'
+import Exfooter from './Exfooter'
+import "./index.css"
 export default class Experimental extends Component {
     render() {
         return (
-            <div>
-                <div className="exmaintopbox">
-                    <div className="extopword">欢迎来到数字经济实验教学中心</div>
+            <>
+                <Extopnav/>
+                <div className="exmainpic">
+                    <img src="./img/hznu.jpg" alt="首页封面" />
                 </div>
-                <div className="exmainnavbox">
-                    {/* <div className="exnavlogo">
-                        <img src="./img/logo.png" alt=""/>
-                    </div> */}
-                    <div className="extotailnavbox">
-                        <div className="exnavbox">
-                            <div id="menu">
-                                <div className="exoncho">
-                                    <div className="exmenuword">首页</div>
-                                    <div className="exlebel">INDEX</div>
-                                </div>
-                            </div>
+                <div className="exmaincontent container">
+                    <div className="row">
+                        <div className="col-3">
+                            <Exasiadenav/>
                         </div>
-                        <div className="exnavbox">
-                            <div id="menu">
-                                <div className="exoncho">
-                                    <div className="exmenuword">首页</div>
-                                    <div className="exlebel">INDEX</div>
-                                </div>
-                            </div>
+                        <div className="col-9">
+                            <Excontent/>
                         </div>
                     </div>
+                    <Exfooter/>
                 </div>
-            </div>
+                
+            </>
         )
     }
 }

@@ -1,0 +1,56 @@
+.exfootmainbox {
+  width: 1200px;
+  height: 112px;
+  margin-top: 200px;
+  border-top: #f60 solid 5px;
+  background: #201e1f;
+  line-height: 30px;
+  float: left;
+}
+.exfootbox {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  clear: both;
+  background: #201e1f;
+  color: #858585;
+}
+.exfootlink {
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px solid #41424c;
+  border-bottom: 1px solid #41424c;
+  font-size: 16px;
+  text-align: left;
+  float: left;
+}
+.clearfix {
+  width: 1200px;
+  height: 30px;
+}
+.exfootinfo {
+  padding: 20px 0;
+  text-align: center;
+}
+.exfootinfoword {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  float: left;
+}
+.exlinkword {
+  cursor: pointer;
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  line-height: 20px;
+  color: #888;
+}
+.exlinkbox {
+  float: left;
+  width: 150px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}

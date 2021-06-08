@@ -29,7 +29,7 @@ export default class Figure extends Component {
                     </div>  
                     <div className="figureitembox">
                         <div className="portrait" id="zengming"/>
-                        <div className="figurename">曾明</div>
+                        <div className="figurename">曾鸣</div>
                         <div className="figurebriefbox">
                             <div className="figurebrieitem">阿里巴巴商学院院长</div>
                             <div className="figurebrieitem">原阿里巴巴集团学术委员会主席</div>

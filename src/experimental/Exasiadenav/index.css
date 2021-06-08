@@ -1,0 +1,33 @@
+.Exasiademainbox {
+  margin: 20px 0;
+  height: 202px;
+}
+.Exasidetitlebox {
+  width: 100%;
+  height: 100px;
+  float: left;
+  line-height: 100px;
+  background: #f60;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.Exaisdeurlmainbox {
+  width: 100%;
+  height: 100px;
+  float: left;
+  background: #fafafa;
+}
+.exasideurlitem {
+  width: 100%;
+  padding-left: 0px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+  background: url(./img/nav1.png);
+  background-position: 50% 50%;
+  float: left;
+  color: #333;
+  border-bottom: #f60 solid 0.5px;
+}
