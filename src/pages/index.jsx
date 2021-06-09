@@ -5,12 +5,15 @@ import Context from './Context'
 import Footernav from './Footernav'
 import "./index.css"
 export default class Pages extends Component {
+    bablechange=()=>{
+        this.props.controlproject(1)
+    }
     render() {
         return (
             <>
                 <Topheader/>
                 <Navheader/>
-                <div className="fengshui"></div>
+                <div onClick={this.bablechange} className="fengshui"></div>
                 <Context/>
                 <div id="emptybox"></div>
                 <Footernav/>
